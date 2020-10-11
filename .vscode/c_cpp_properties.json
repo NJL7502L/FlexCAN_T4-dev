@@ -9,8 +9,8 @@
             "includePath": [
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/include",
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/src",
-                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/lib/FlexCAN_T4",
+                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
                 "/Users/gakushi/.platformio/lib/Blynk_ID415/src",
                 "/Users/gakushi/.platformio/lib/M5Stack-Avatar_ID4529/src",
                 "/Users/gakushi/.platformio/lib/M5Stack_ID1851/src",
@@ -120,8 +120,8 @@
                 "path": [
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/include",
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/src",
-                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/lib/FlexCAN_T4",
+                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
                     "/Users/gakushi/.platformio/lib/Blynk_ID415/src",
                     "/Users/gakushi/.platformio/lib/M5Stack-Avatar_ID4529/src",
                     "/Users/gakushi/.platformio/lib/M5Stack_ID1851/src",
