@@ -9,8 +9,9 @@
             "includePath": [
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/include",
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/src",
+                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2",
                 "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/lib/FlexCAN_T4",
-                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
+                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy4",
                 "/Users/gakushi/.platformio/lib/Blynk_ID415/src",
                 "/Users/gakushi/.platformio/lib/M5Stack-Avatar_ID4529/src",
                 "/Users/gakushi/.platformio/lib/M5Stack_ID1851/src",
@@ -62,7 +63,6 @@
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MFRC522/src",
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MIDI/src",
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/Metro",
-                "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2",
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense",
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense/utility",
                 "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NativeEthernet/src",
@@ -120,8 +120,9 @@
                 "path": [
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/include",
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/src",
+                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2",
                     "/Users/gakushi/ghq/github.com/NJL7502L/FlexCAN_T4-dev/lib/FlexCAN_T4",
-                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy3",
+                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/cores/teensy4",
                     "/Users/gakushi/.platformio/lib/Blynk_ID415/src",
                     "/Users/gakushi/.platformio/lib/M5Stack-Avatar_ID4529/src",
                     "/Users/gakushi/.platformio/lib/M5Stack_ID1851/src",
@@ -173,7 +174,6 @@
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MFRC522/src",
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MIDI/src",
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/Metro",
-                    "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/MsTimer2",
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense",
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NXPMotionSense/utility",
                     "/Users/gakushi/.platformio/packages/framework-arduinoteensy/libraries/NativeEthernet/src",
@@ -229,13 +229,13 @@
             },
             "defines": [
                 "PLATFORMIO=50001",
-                "__MK20DX256__",
-                "ARDUINO_TEENSY31",
+                "__IMXRT1062__",
+                "ARDUINO_TEENSY40",
                 "USB_SERIAL",
                 "ARDUINO=10805",
                 "TEENSYDUINO=153",
                 "CORE_TEENSY",
-                "F_CPU=72000000L",
+                "F_CPU=600000000",
                 "LAYOUT_US_ENGLISH",
                 ""
             ],
@@ -244,7 +244,9 @@
             "compilerPath": "/Users/gakushi/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
             "compilerArgs": [
                 "-mthumb",
-                "-mcpu=cortex-m4",
+                "-mcpu=cortex-m7",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv5-d16",
                 ""
             ]
         }
